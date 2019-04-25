@@ -1,0 +1,126 @@
+header {
+    background-color: #100e17;
+    color: #FFFFFF;
+    height: 100%;
+    padding-top: 1em;
+    position: relative;
+    text-align: center;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: "Merriweather", serif;
+    margin: 0em;
+}
+
+#name {
+    margin: 3.125rem auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625em;
+}
+
+hr {
+    height: 0.063em;
+    width: 15em;
+    border: 0em;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+
+.top-container {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.bottom-container {
+    background: #0a0809;
+    color: rgba(255, 255, 255, 0.2);
+    padding: 6.6rem 0 4.2rem;
+    text-align: center;
+}
+
+.goku {
+    display: inline;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    margin: 0.625em 1.250em;
+}
+
+a:hover {
+    color: #F9013F;
+}
+
+.skills {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 2rem auto 6.25rem auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.brain-img {
+    float: left;
+    margin-right: 1.875rem;
+    width: 27%;
+}
+
+.coding-img {
+    float: right;
+    margin-left: 1.875rem;
+    width: 27%;
+}
+
+.contact-me {
+    background-color: #070606;
+    color: #0893e7;
+    padding-top: 0.1rem;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#contact-p {
+    color: #FFFFFF;
+}
+
+.button {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 0.5rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.250rem;
+    padding: 0.625rem 1.250rem 0.625rem 1.250rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #30e3ce;
+    background-image: -webkit-linear-gradient(top, #30e3ce, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3ce, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3ce, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3ce, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3ce, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #FFFFFF;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    padding: 1.250rem 0rem;
+}

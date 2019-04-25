@@ -124,3 +124,11 @@ a:hover {
     font-size: 0.9rem;
     padding: 1.250rem 0rem;
 }
+
+img {
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}

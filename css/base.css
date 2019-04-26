@@ -10,13 +10,19 @@ header {
 body {
     background-color: #f1f1f1;
     font-family: "Merriweather", serif;
-    margin: 0em;
 }
 
 #name {
-    margin: 3.125rem auto 0 auto;
     font-family: "Sacramento", cursive;
     font-size: 5.625em;
+}
+
+p {
+    line-height: 2;
+}
+
+#profile {
+    margin-top: 0.5rem;
 }
 
 hr {
@@ -51,6 +57,7 @@ a {
 
 a:hover {
     color: #F9013F;
+    text-decoration: inherit;
 }
 
 .skills {
@@ -62,7 +69,6 @@ a:hover {
     width: 50%;
     margin: 2rem auto 6.25rem auto;
     text-align: left;
-    line-height: 2;
 }
 
 .brain-img {
@@ -131,4 +137,30 @@ img {
 
 img:hover {
     transform: scale(1.1);
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background: #0a0809;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+@media screen and (max-width: 720px) {
+    h3 {
+        font-size: 18px !important;
+    }
 }

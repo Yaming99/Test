@@ -37,7 +37,7 @@ function signIn(username, password) {
 function login() {
     do {
         var usernamePrompt = prompt("Please enter your username:");
-    	var passwordPrompt = prompt("Please enter your password:");
+        var passwordPrompt = prompt("Please enter your password:");
     } while (!(isUserValid(usernamePrompt, passwordPrompt)));
 
     signIn(usernamePrompt, passwordPrompt);

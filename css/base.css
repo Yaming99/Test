@@ -1,9 +1,7 @@
-header {
+.cover {
     background-color: #100e17;
     color: #FFFFFF;
-    height: 100%;
-    padding-top: 1em;
-    position: relative;
+    padding-top: 7em;
     text-align: center;
 }
 
@@ -144,6 +142,11 @@ img:hover {
 
 .navbar {
     background: #0a0809;
+    height: 10%;
+    /* make it fixed */
+    position: fixed; 
+    top: 0;
+    width: 100%;
 }
 
 .navbar-brand {

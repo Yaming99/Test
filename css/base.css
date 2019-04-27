@@ -1,7 +1,7 @@
 .cover {
     background-color: #100e17;
     color: #FFFFFF;
-    padding-top: 7em;
+    padding-top: 8.6em;
     text-align: center;
 }
 
@@ -144,7 +144,7 @@ img:hover {
     background: #0a0809;
     height: 10%;
     /* make it fixed */
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
@@ -166,8 +166,22 @@ img:hover {
     width: auto;
 }
 
+/* Make it responsive for mobile users */
 @media screen and (max-width: 720px) {
+    nav {
+        height: auto !important;
+        width: 100% !important;
+    }
     h3 {
         font-size: 18px !important;
     }
+}
+
+.dropdown-menu {
+    height: auto;
+    width: auto;
+}
+
+nav .navbar-nav li a{
+  color: #0893e7 !important;
 }

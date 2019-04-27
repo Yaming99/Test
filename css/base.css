@@ -156,14 +156,9 @@ img:hover {
     font-weight: bold;
 }
 
-
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
-}
-
-.dropdown-item {
-    width: auto;
 }
 
 /* Make it responsive for mobile users */
@@ -179,7 +174,7 @@ img:hover {
 
 .dropdown-menu {
     height: auto;
-    width: auto;
+    width: 16.8em;
 }
 
 nav .navbar-nav li a{

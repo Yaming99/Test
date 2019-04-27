@@ -157,10 +157,13 @@ img:hover {
 }
 
 
-
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
+}
+
+.dropdown-item {
+    width: auto;
 }
 
 @media screen and (max-width: 720px) {

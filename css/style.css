@@ -1,0 +1,13 @@
+body {
+    background: #100e17;
+    color: white;
+}
+
+h1 {
+    font-size: 3.125em;
+    text-align: center;
+}
+
+span {
+    font-size: 200%;
+}

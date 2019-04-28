@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <h1 id="H1">Registration</h1>
+
+    <form method="post">
+        <label for="Last name">Last name:</label><br>
+        <input type="text" name="Last name" placeholder="Obama" size="40px" maxlength="100"><br>
+        <label for="First name">First name:</label><br>
+        <input type="text" name="First name" placeholder="Goku" size="40px" maxlength="100"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" name="Email" placeholder="Obama69.Goku420@gmail.com" size="40px" required><br>
+        <label for="Username">Username:</label><br>
+        <input type="text" name="Username" placeholder="GokuBlack" size="40px" minlength="3" maxlength="100" required><br>
+        <label for="Password">Password:</label><br>
+        <input type="password" name="Password" placeholder="Your password" size="40px" minlength="5" required><br><br>
+        <label for="Gender">Gender:</label><br>
+        <label>Male<input type="radio" name="Gender" value="male"></label><br>
+        <label>Female<input type="radio" name="Gender" value="female"></label><br>
+        <label>Triggered<input type="radio" name="Gender" value="triggered"></label><br><br>
+        <label for="Birthday">Birthday:</label><br>
+        <input type="date" name="Birthday"><br><br>
+        <label for="Comments">Comments:</label><br>
+        <textarea rows="5" cols="50" name="Comments" id="comments" placeholder="Say something nice!"></textarea><br><br>
+        <label>Sign me up for email updates<input type="checkbox" checked="checked"></label><br>
+        <label>I accept the <a href="Terms.html" target="_blank">terms and conditions</a><input type="checkbox"></label><br><br>
+        <input type="button" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';" value="Create an account"><br><br>
+        <input type="reset" value="Reset">
+    </form>
+    <br>
+    <form action="mailto:anthonyquach999@gmail.com" method="post" enctype="text/plain">
+        <label>Email me:</label><br>
+        <textarea name="Your message" rows="6" cols="60" placeholder="Send me an email!"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+    <p>Click on it for something cool:</p>
+    <a href="https://www.youtube.com/watch?v=2e7kdoEt2xg" title="Youtube" target="_blank"><img src="https://roleplayinggame.fr/wp-content/uploads/2019/04/SuperSmash-Bros-Ultimate_Joker.jpg" width="600px" alt="Joker"></a>
+</body></html>

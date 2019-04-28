@@ -5,23 +5,23 @@ var deleteBtns = document.getElementsByClassName("delete");
 
 
 // add event listener to first 6 btns in HTML file
-for(var i = 0; i < deleteBtns.length; i++){
-	deleteBtns[i].addEventListener("click", removeParent, false);
+for (var i = 0; i < deleteBtns.length; i++) {
+    deleteBtns[i].addEventListener("click", removeParent, false);
 }
 
 // from StackOverflow:
 function removeParent(evt) {
-  evt.target.removeEventListener("click", removeParent, false);
-  evt.target.parentNode.remove();
+    evt.target.removeEventListener("click", removeParent, false);
+    evt.target.parentNode.remove();
 }
 
 // click on a list item and it strikethroughs the text
-function getEventTarget(e){
-	e = e || window.event;
-	return e.target || e.srcElement;
+function getEventTarget(e) {
+    e = e || window.event;
+    return e.target || e.srcElement;
 }
 
-ul.onclick = function(event) {
+ul.onclick = function (event) {
     var target = getEventTarget(event);
     target.classList.toggle("done");
 }
@@ -39,7 +39,7 @@ function createListElement() {
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
     li.innerHTML = li.innerHTML + " ";
-	li.appendChild(btn);
+    li.appendChild(btn);
 
     ul.appendChild(li);
     input.value = "";

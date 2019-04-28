@@ -32,7 +32,7 @@ function signIn(username, password) {
     if (isUserValid(username, password)) {
         console.log(newsfeed);
         for (let a = 0; a < newsfeed.length; a++) {
-            document.querySelector("h2") = newsfeed[a].timeline;
+            document.querySelector("h2").innerHTML = newsfeed[a].username + ": " + newsfeed[a].timeline;
         }
     }
 }

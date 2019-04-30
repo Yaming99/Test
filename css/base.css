@@ -129,11 +129,11 @@ a:hover {
     padding: 1.250rem 0rem;
 }
 
-img {
+.image {
     transition: all 1s;
 }
 
-img:hover {
+.image:hover {
     transform: scale(1.1);
 }
 

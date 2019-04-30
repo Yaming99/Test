@@ -175,6 +175,10 @@ a:hover {
     h3 {
         font-size: 18px !important;
     }
+    .logo {
+        width: auto;
+        height: auto;
+    }
 }
 
 .dropdown-menu {

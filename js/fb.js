@@ -31,6 +31,7 @@ function isUserValid(username, password) {
 function signIn(username, password) {
     if (isUserValid(username, password)) {
         console.log(newsfeed);
+        // document.getElementById('test').innerHTML = JSON.stringify(data, null, 4);
         for (let a = 0; a < newsfeed.length; a++) {
             document.querySelector("h2").innerHTML = newsfeed[a].username + ": " + newsfeed[a].timeline;
         }

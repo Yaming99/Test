@@ -176,7 +176,11 @@ a:hover {
         font-size: 18px !important;
     }
     .logo {
-        height: 10vh;
+        height: 8vh;
+        width: 80%;
+    }
+    .cover {
+        margin-top: 12%;
     }
 }
 
